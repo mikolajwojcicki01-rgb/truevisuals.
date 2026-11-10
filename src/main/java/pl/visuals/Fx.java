@@ -127,7 +127,7 @@ public final class Fx {
     private static boolean prevAtkClick;
 
     public static String targetName = "";
-    public static net.minecraft.entity.player.SkinTextures targetSkin;
+    public static net.minecraft.client.util.SkinTextures targetSkin;
     public static float targetHealth, targetMax = 20f, targetAnim = 20f;
     public static long targetTime = -1000;
 
