@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "visuals",
+  "version": "${version}",
+  "name": "Truevisuals",
+  "description": "Truevisuals: visualsy, target render, fake player, efekty zabicia, ragdoll i menu z voidem.",
+  "authors": ["Mikołaj"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.visuals.VisualsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
