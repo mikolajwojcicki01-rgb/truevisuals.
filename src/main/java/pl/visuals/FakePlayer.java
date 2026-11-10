@@ -20,7 +20,7 @@ public final class FakePlayer {
     private int respawn = -1;
     private final Ragdoll model;
     private final net.minecraft.util.Identifier skin;
-    private final net.minecraft.entity.player.SkinTextures skinTextures;
+    private final net.minecraft.client.util.SkinTextures skinTextures;
     private float yaw;
 
     private FakePlayer(MinecraftClient mc, double x, double y, double z) {
